@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56531" started-at="2017-10-22T02:50:31Z" finished-at="2017-10-22T02:51:28Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56531" started-at="2017-10-22T02:50:31Z" finished-at="2017-10-22T02:51:28Z">
+      <class name="com.snyder.test.smoke.TestLoginUS109">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.snyder.test.smoke.TestLoginUS109@5cb9f472]" name="setup" is-config="true" duration-ms="18597" started-at="2017-10-22T08:20:32Z" finished-at="2017-10-22T08:20:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testLoginSuccessTC119()[pri:0, instance:com.snyder.test.smoke.TestLoginUS109@5cb9f472]" name="testLoginSuccessTC119" duration-ms="37784" started-at="2017-10-22T08:20:50Z" finished-at="2017-10-22T08:21:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginSuccessTC119 -->
+        <test-method status="FAIL" signature="tearDown()[pri:0, instance:com.snyder.test.smoke.TestLoginUS109@5cb9f472]" name="tearDown" is-config="true" duration-ms="0" started-at="2017-10-22T08:21:28Z" finished-at="2017-10-22T08:21:28Z">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DESKTOP-N8FBEAQ', ip: '192.168.32.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=TA9330ASZX, platform=LINUX, deviceUDID=TA9330ASZX, appActivity=com.flipkart.android.SplashActivity, desired={appActivity=com.flipkart.android.SplashActivity, appPackage=com.flipkart.android, platformVersion=5.1, platformName=Android, deviceName=TA9330ASZX}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=XT1033, platformName=Android, deviceManufacturer=motorola}]
+Session ID: afa57e77-b63d-4215-803e-3b5c37f6ea75]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: Method has not yet been implemented (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 51 milliseconds
+Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+System info: host: 'DESKTOP-N8FBEAQ', ip: '192.168.32.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_121'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.flipkart.android, deviceScreenSize=720x1280, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, deviceName=TA9330ASZX, platform=LINUX, deviceUDID=TA9330ASZX, appActivity=com.flipkart.android.SplashActivity, desired={appActivity=com.flipkart.android.SplashActivity, appPackage=com.flipkart.android, platformVersion=5.1, platformName=Android, deviceName=TA9330ASZX}, platformVersion=5.1, webStorageEnabled=false, locationContextEnabled=false, takesScreenshot=true, javascriptEnabled=true, deviceModel=XT1033, platformName=Android, deviceManufacturer=motorola}]
+Session ID: afa57e77-b63d-4215-803e-3b5c37f6ea75
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:638)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:46)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:490)
+	at com.snyder.test.smoke.TestLoginUS109.tearDown(TestLoginUS109.java:68)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:786)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.snyder.test.smoke.TestLoginUS109 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
